@@ -6,3 +6,7 @@ Using what you have learnt with the children prop. Fix the issues with this Orde
 - Each timeline node should have an icon (.timeline-icon) and a content (.timeline-content) within.
 - The timeline content should have a title (.timeline-title) and a description (.timeline-description) within.
 
+
+To start the project run:
+`npm install ` then `npm run dev`
+
