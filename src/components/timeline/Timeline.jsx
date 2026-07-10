@@ -1,8 +1,9 @@
-import { TimelineNode } from "./TimelineNode";
+import { TimelineNode } from "./TimelineNode.jsx";
 
-export const Timeline = ({ timelineData }) => {
+export const Timeline = ({ timelineData, children }) => {
   return (
     <section className="timeline-section">
+      {children}
       <div className="timeline-container">
         {timelineData.map((item) => (
           <TimelineNode key={item.id} data={item}>
